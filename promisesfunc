@@ -1,0 +1,11 @@
+
+
+let promise=new promise((resolve,reject)=>{
+
+
+console.log(promise);
+
+resolve(123);
+});
+
+console.log(promise);
