@@ -8,6 +8,9 @@ document.getElementById('btn').addEventListener('click',function(){
 
 
 //this is used to fetch from backend and give the result
+
+
+//get data from backend 
 fetch('http://localhost:8090/food')
     .then(response=>response.json())
     .then(data=>{
@@ -18,3 +21,5 @@ fetch('http://localhost:8090/food')
     });
    
 
+
+    
